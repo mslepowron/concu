@@ -1,0 +1,17 @@
+Primer Final de Concurrentes [7559] - 2C 2022
+
+Primero fue un ej de código en papel, en pseudo-rust.
+Un productor consumidor con actores
+El productor manda números aleatorios cada un intervalo
+Se puede consultar al consumidor  el acumulado
+
+Después tomo oral (porque eramos 2), hacia una pregunta a uno y otra al otro,
+si te faltaba algo pedía que lo complete el otro.
+hizo preguntas de lo siguiente
+- el ej en papel de antes (explicar donde/como se implementa un pedazo de consigna)
+- precondiciones de transacciones (storage estable, tiempos de comunicación finitos)
+- Que es entidad y sus capacidades
+- monitores ( y volatile, puede q sea pq nombre java )
+- conocimiento distribuido
+- eleccion de lider (bully y ring)
+- Detección de deadlock ( exclusion mutua tmb )

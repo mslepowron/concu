@@ -1,0 +1,23 @@
+1.
+a.Describir el modelo OSI y explicar objetivos y capacidades de cada capa
+b. Explicar que es un socket y que modelo de concurrencia usan
+
+2. Describir y comparar los efectos negativos que tiene en los programas concurrentes los:
+- deadlocks
+- ⁠race conditions
+- ⁠starvation
+- ⁠busy wait
+
+3. a. Explicar el algoritmo de deteccion de deadlocks distribuido en programacion concurrente distribuida
+b. Diagramar un ejemplo de deteccion de deadlock y explicarlo paso a paso
+c. Explicar como se puede evitar esto (osea prevencion de deadlocks - wait and die y wound wait)
+
+4. a. Enumerar posibles eventos en un ambiente distribuido
+b. Explicar como se calcula el costo y complejodad en un ambiente distribuido y comparar el computo que hay que hacer en un sistema centralizado
+
+5. Se tiene un sistema de compra de pasajes de micros a larga distancia. Un usuario selecciona una fecha origen y destino, y el sistema le muestra los asientos disponibles en el micro. El usuario selecciona uno y luego pasa a la fase de pagos.
+a. Modelar un sistema de transaccionalidad para este problema y explicar como se compone que mensajes se envian y como puede ayudar a prevenir problemas (por ej q se reserve un asiento sin pagarlo). Era hacer un two phase commit
+b. Diagramar o escribir las entidades y mensajes que se envian y un flujo general del sistema
+c. Explicar dos casos de exito y dos casos de falla y como se comporta el sistema frente a estos
+
+Como condicion de aprobacion, el punto 5 debe estar bien

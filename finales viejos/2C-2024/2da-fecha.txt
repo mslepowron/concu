@@ -1,0 +1,9 @@
+1. Explicar las propiedades Safety y liveness, y ejemplos de propiedades asociadas a estas
+
+2. Explicar Async, comparar con threads y dar ventajas y desventajas de c/u, ejemplo de uso de de c/u
+
+3. Explicar deadlocks, explicar algoritmo distribuidos de detección de deadlocks, y graficar un ejemplo del algoritmo distribuido
+
+4. Explicar fork join, work stealing y por qué conviene usar work stealing en vez de una única cola de procesos
+
+5. Planteo de una situacion de compra de tockets de avion y sistema de pagos. Implementar una solucion siguiendo un modelo de transacciones (2 phase locking)

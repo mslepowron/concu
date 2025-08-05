@@ -1,0 +1,18 @@
+1. Fork-join:
+definición, definir work stealing y explicar por qué es mejor implementar work stealing a que tener una sola cola de tareas compartida
+
+2. Redes de petri: 
+a. definición y para qué sirve. Explicar la diferencia entre ordinaria vs general.
+b. Definición de grafo de alcance y ejemplo
+c. graficar una red de petri de productor-consumidor con buffer acotado
+
+3. Actores: 
+Explicar cual es la motivación del modelo, características detalladas de la entidad actor y ciclo de vida de un actor de actix
+
+4. Entidades: 
+Qué son, capacidades y restricciones temporales 
+
+5. Control de concurrencia: 
+Definir 2 phase locking, timestamps y concurrencia optimista.
+
+Situación de supermercado con mucha contención en hora pico, ventajas y desventajas en esa situación para los 3 tipos de control, elegir uno y explicar por qué es el mejor para la situación.

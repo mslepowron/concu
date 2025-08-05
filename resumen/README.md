@@ -1,0 +1,1 @@
+Los temas del parcial van hasta Actores inclusive. Para el final entran todos los temas de la materia

@@ -1,0 +1,20 @@
+1) semáforo, sus funciones y variables internas
+2) funciones de entrada y salida de una red de petri, y diagrama del cliente servidor
+3) exclusión mutua en ambiente distribuido, diagrama y problemas
+4) regla, acción, comportamiento y conocimiento de entidades
+5) problema de reserva de restaurante, analizar problemas cuando está congestionado, proponer solución (locks, transacciones, etc) y proponer solución para ciertos casos particulares
+
+Tenes reservas para restaurantes, los clientes pueden elegir
+1. restaurante y fecha
+2. horario
+3. numero de comensales
+
+El reservado de la mesa en si es "automatico" y se confirma en a lo sumo 5 mins, sino hay timeout. El principio me parecia se referia a que el cliente confirme pero dsps menciona timeout de pago, igual no afecto a mi respuesta ja.
+
+5.1. Que problemas de concurrencia detectas? Detallar
+5.2. Como resolverias esos problemas, detallar metodo de sincronizacion (por ejemplo con semaforos, actores, transacciones, etc).
+5.3. Explicar 3 casos de como lo manejaria tu diseño
+Ejemplo:
+    Caso 1: dos usuarios reservan la ultima mesa
+    Caso 2: hay un timeout, expira proceso de pago decia.
+    Caso 3: falla el servidor de lock de mesas. 
